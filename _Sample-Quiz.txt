@@ -1,0 +1,4 @@
+What color is Apple? = |Yellow| *Red|Blue
+Where is the Sky? = |Beneath us|Front of us|Under the land| *Up
+Are you a human?! = | *Yes|No
+End of quiz = | | | |*
