@@ -1,0 +1,82 @@
+object frmAbout: TfrmAbout
+  Left = 239
+  Height = 320
+  Top = 162
+  Width = 310
+  Caption = 'About'
+  ClientHeight = 320
+  ClientWidth = 310
+  OnCreate = FormCreate
+  LCLVersion = '1.4.0.4'
+  object imgLogo: TImage
+    Left = 20
+    Height = 51
+    Top = 24
+    Width = 55
+  end
+  object lblProgramName: TLabel
+    Left = 96
+    Height = 15
+    Top = 24
+    Width = 84
+    Caption = 'Program Name'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 96
+    Height = 15
+    Top = 46
+    Width = 154
+    Caption = 'Created by: Adnan Shameem'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 96
+    Height = 15
+    Top = 62
+    Width = 133
+    Caption = 'Data format from: Anette'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 96
+    Height = 151
+    Top = 89
+    Width = 190
+    AutoSize = False
+    Caption = 'The software is a backend for editing quiz files. It was prepared to help Anette to revive the project that her late brother wrote.'#13#10#13#10'This software is open source and released under Creative Commons Attribution-ShareAlike '#13#10'CC BY-SA. The source code is available at:'
+    ParentColor = False
+    WordWrap = True
+  end
+  object edtSourceWeb: TEdit
+    Left = 95
+    Height = 23
+    Top = 247
+    Width = 196
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 95
+    Height = 15
+    Top = 279
+    Width = 72
+    Caption = 'Visit my blog:'
+    ParentColor = False
+  end
+  object lblSite: TLabel
+    Cursor = crHandPoint
+    Left = 177
+    Height = 15
+    Top = 279
+    Width = 50
+    Caption = 'LazPlanet'
+    Font.Color = clMenuHighlight
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = lblSiteClick
+  end
+end
